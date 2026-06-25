@@ -5,10 +5,6 @@
 
 Become a Warrior Hero in this epic combat runner game. Clash with monsters, crush bosses, and survive traps to run as long as possible!
 
----
-
-# Dark Lands Vita
-
 This is a wrapper/port of **Dark Lands** for the *PS Vita*.
 
 The port works by loading the official Android ARMv7 executable in memory, resolving its imports with native functions and patching it in order to properly run.
