@@ -111,9 +111,3 @@ cmake --build build
 - TheFloW for the original .so loader.
 - Rinnegatamante for the help in other ports and the marvelous [vitaGL](https://github.com/Rinnegatamante/vitaGL/tree/master) that made this port possible.
   
----
-
-## Credits
-
-- BonQ for help in the porting process and suggesting me this game.
-- [Wolff](https://github.com/WolffsRoom/) for reminding me that this project was a candidate.
