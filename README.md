@@ -15,8 +15,8 @@ The port works by loading the official Android ARMv7 executable in memory, resol
 
 - Initial release.
 - Vita loader for the Android `libcocos2dcpp.so`.
-- Vita controls mapped through the game's existing touch/key input path.
-- Native Vita audio bridge with MP3-to-OGG asset redirection.
+- Vita controls mapped.
+- The game has a relatively long initial loading time, but runs smoothly once loading is complete.
 
 
 ## Official Game Download
