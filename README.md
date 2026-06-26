@@ -1,13 +1,13 @@
 # Dark Lands - PS Vita Port
 
-Dark Lands is a 2D action-platformer/combat runner where you play as an Ancient Greek warrior surviving traps, shadows, monsters, and bosses.
-
-This repository contains a PS Vita loader for the Android ARMv7 release of Dark Lands. The loader maps the official Android shared library into memory, resolves its Android/JNI/OpenSL ES/Cocos imports with native Vita-side implementations, and applies the patches needed to run the game on real hardware.
+**Dark Lands** is a 2D action-platformer in which players take on the role of an Ancient Greek hero. With nothing but their reflexes and a faithful sword, they must survive a dark world filled with shadows, deadly obstacles, and relentless foes.
 
 > [!WARNING]
-> This port was developed with LLM-assisted reverse-engineering and implementation work. The result has been reviewed and refined, but complex loader ports can still have unexpected edge cases.
+> This port was developed with the assistance of LLMs for reverse engineering closed-source applications and implementing parts of the codebase. AI was primarily used to assist with loader crash analysis and certain code implementations. The final result has been manually reviewed and refined; however, as with any complex software project, some unexpected issues or edge cases may still be present.
 
-You must provide your own legally obtained Android APK. Do not redistribute proprietary game code, executables, assets, or APK files unless you have the rights to do so.
+This is a wrapper/port of **Dark Lands** for the *PS Vita*.
+ 
+The port works by loading the official Android ARMv7 executable in memory, resolving its imports with native functions and patching it in order to properly run. You must provide your own legally obtained Android APK. Do not redistribute proprietary game code, executables, assets, or APK files unless you have the rights to do so.
 
 ## Changelog
 
