@@ -50,6 +50,19 @@ You must provide your own legally obtained Android APK. Do not redistribute prop
    ```
 
 6. From your legally obtained Android APK, extract:
+   - Obtain `dark-lands-1-5-6.apk` (version **1.5.6**).
+   - Verify that the APK matches the expected SHA-256 checksum:
+
+     **Windows (Command Prompt):**
+      ```cmd
+      certutil -hashfile dark-lands-1-5-6.apk SHA256
+      ```
+   
+      Expected output:
+   
+      ```text
+      7ecd7f1c4cd2e9d9066b0515c7bde2af7ce6d0a8b7d79deab652b98e7f3d1b0e
+      ```
 
    - `lib/armeabi-v7a/libcocos2dcpp.so` to `ux0:data/dla/libcocos2dcpp.so`
    - the APK's `assets` folder to `ux0:data/dla/assets`
