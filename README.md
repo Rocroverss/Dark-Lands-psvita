@@ -7,7 +7,7 @@
 
 This is a wrapper/port of **Dark Lands** for the *PS Vita*.
  
-The port works by loading the official Android ARMv7 executable in memory, resolving its imports with native functions and patching it in order to properly run. You must provide your own legally obtained Android APK. Do not redistribute proprietary game code, executables, assets, or APK files unless you have the rights to do so.
+The port works by loading the official Android ARMv7 executable in memory, resolving its imports with native functions and patching it in order to properly run. You must provide your own legally obtained Android APK. 
 
 ## Changelog
 
