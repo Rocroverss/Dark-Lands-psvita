@@ -64,9 +64,10 @@ The port works by loading the official Android ARMv7 executable in memory, resol
       7ecd7f1c4cd2e9d9066b0515c7bde2af7ce6d0a8b7d79deab652b98e7f3d1b0e
       ```
 
-   - `lib/armeabi-v7a/libcocos2dcpp.so` to `ux0:data/dla/libcocos2dcpp.so`
-   - the APK's `assets` folder to `ux0:data/dla/assets`
-   - the APK itself to `ux0:data/dla/base.apk`
+   - Run the following command that will create the dla folder that you need to place at  "ux0:data/":
+     ```text
+      python prepare_dla_folder.py dark-lands-1-5-6.apk
+      ```
 
    The clean final layout should look like this:
 
