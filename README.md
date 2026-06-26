@@ -82,24 +82,6 @@ The port works by loading the official Android ARMv7 executable in memory, resol
    |- SharedPreferences.bin      created by the port after saving
    ```
 
-## Audio Assets
-
-The Android game requests MP3 files they need tyo be converted to .ogg files,
-
-Convert the APK's MP3 files on a PC with Python 3 and `ffmpeg` installed:
-
-```bash
-python extras/scripts/convert_apk_audio.py base.apk converted_audio
-```
-
-Then copy or merge `converted_audio/assets` into:
-
-```text
-ux0:data/dla/assets
-```
-
-Keep the paths under `assets` unchanged.
-
 ## Controls
 
 | Vita input | Action |
